@@ -466,9 +466,9 @@ def render_sidebar(engine):
         example_questions = [
             "🔝  Top 10 materials by shelf stock value",
             "💰  Materials with highest shelf stock value?",
-            "📡  Shelf stock for SENSORS across all plants",
-            "🏭  SOP families with most shelf stock value?",
-            "⚠️  Materials below safety stock threshold",
+            "📡  What is the DOH for material 924689-000",
+            "🏭  What’s in transit for 10XL2-ZH",
+            "⚠️  Any wip for 908689-000",
             "📊  Total inventory value by plant",
         ]
 
