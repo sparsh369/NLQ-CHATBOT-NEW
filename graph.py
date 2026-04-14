@@ -86,6 +86,18 @@ RULE 2 — WIP COLUMNS: quantity vs value (FIX)
 ════════════════════════════════════════════════════════════════
 There are TWO separate WIP columns — never confuse them:
 
+ADDITIONAL SYNONYMS (IMPORTANT):
+- "work in progress"
+- "work-in-progress"
+- "in progress stock"
+- "in-process inventory"
+
+→ ALL map to WIP
+
+Interpretation:
+- "work in progress value" → "WIP($)"
+- "work in progress quantity" → "WIP"
+- "work in progress" (ambiguous) → show BOTH columns
   "WIP"     → WIP QUANTITY (number of units)
   "WIP($)"  → WIP VALUE in dollars
 
@@ -197,8 +209,7 @@ RULE 6 — OTHER COLUMN MAPPINGS
 - MRP / planner → "MRP Controller Text"
 - buyer / purchasing → "Purchasing Group Text"
 - UOM / unit → "UOM"
-- WIP / wip / Work-in-progress -> "WIP"
-
+- work in progress / work-in-progress / in-process → "WIP"
 ════════════════════════════════════════════════════════════════
 RULE 7 — AGGREGATION
 ════════════════════════════════════════════════════════════════
