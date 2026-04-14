@@ -279,9 +279,14 @@ st.markdown("""
     }
 
     /* ── Hide Streamlit branding ── */
-    #MainMenu {visibility: hidden;}
-    footer {visibility: hidden;}
-    header {visibility: hidden;}
+    /* ── Hide Streamlit branding but keep sidebar toggle ── */
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+
+/* Make sidebar toggle arrow white */
+button[kind="header"] svg {
+    fill: white !important;
+}
 </style>
 """, unsafe_allow_html=True)
 
