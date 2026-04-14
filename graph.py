@@ -197,6 +197,7 @@ RULE 6 — OTHER COLUMN MAPPINGS
 - MRP / planner → "MRP Controller Text"
 - buyer / purchasing → "Purchasing Group Text"
 - UOM / unit → "UOM"
+- WIP / wip / Work-in-progress -> "WIP"
 
 ════════════════════════════════════════════════════════════════
 RULE 7 — AGGREGATION
